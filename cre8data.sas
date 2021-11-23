@@ -12,7 +12,7 @@
 /* report lists the names of the SAS data sets that were created.*/
 
 
-%let path=s:/workshop;
+%let path=&repopath.;
 
 /*+++++++++++++++++++++++++++++++++++++++++++++*/
 /* Alternate Data Locations                     */
