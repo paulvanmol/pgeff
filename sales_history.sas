@@ -1,6 +1,6 @@
 /*create big Sales_history*/
-libname orstar "D:\workshop\winsas\orstar";
-libname library "D:\workshop\winsas\orfmt";
+libname orstar "&path\orstar";
+libname library "&path\orfmt";
 options nofmterr;
 proc sql; 
 create table orion.sales_historyb as
