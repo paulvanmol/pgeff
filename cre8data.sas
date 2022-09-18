@@ -22,7 +22,7 @@
 
 
 *%let path=s:/workshop/pg3;
-*%let path=c:/workshop/pg3;
+*%let path=d:/workshop/pg3;
 *%let path=c:/SAS_Education/pg3;
 *%let path=c:/SAS_Education/lwpg3;
 

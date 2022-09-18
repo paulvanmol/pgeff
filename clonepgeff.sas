@@ -1,5 +1,5 @@
 options dlcreatedir;
-%let repoPath = s:/workshop/pgeff;
+%let repoPath = d:/workshop/pgeff;
 libname repo "&repoPath.";
 libname repo clear;
 
