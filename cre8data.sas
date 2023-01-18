@@ -12,7 +12,7 @@
 /* report lists the names of the SAS data sets that were created.*/
 
 
-%let path=&repopath.;
+%let path=&path.;
 
 /*+++++++++++++++++++++++++++++++++++++++++++++*/
 /* Alternate Data Locations                     */
@@ -22,7 +22,7 @@
 
 
 *%let path=s:/workshop/pg3;
-*%let path=d:/workshop/pg3;
+*%let path=c:/workshop/pg3;
 *%let path=c:/SAS_Education/pg3;
 *%let path=c:/SAS_Education/lwpg3;
 

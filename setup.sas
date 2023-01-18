@@ -46,13 +46,13 @@ put 'libname orion '  '"' "&path" '"' ';';
 %do;
    libname ORION "&path";
    %let rawdata=&path/;
-   %include "&path/&pgmname..sas";
+   %include "&path/&pgmname..sas" /encoding=wlatin1;
 %end;
 %else %if %index(*HP*AI*SU*LI*,*%substr(&sysscp,1,2)*) %then
 %do;
    libname ORION "&path";
    %let rawdata=&path/;
-   %include "&path/&pgmname..sas";
+   %include "&path/&pgmname..sas" /encoding=wlatin1;
 %end;
 %else %if %index(*OS*VM*,*%substr(&sysscp,1,2)*) %then
 %do;

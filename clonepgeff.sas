@@ -1,11 +1,11 @@
 options dlcreatedir;
-%let repoPath = d:/workshop/pgeff;
-libname repo "&repoPath.";
+%let path = s:/workshop/pgeff;
+libname repo "&path.";
 libname repo clear;
 
 data _null_;
-rc = gitfn_clone("https://github.com/paulvanmol/pgeff/", "&repoPath.");
+rc = gitfn_clone("https://github.com/paulvanmol/pgeff/", "&path.");
 put rc=; 
 run;
 
-%include "&repoPath./cre8data.sas"; 
+%include "&path./cre8data.sas"; 
